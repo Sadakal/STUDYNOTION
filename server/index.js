@@ -40,6 +40,7 @@ app.use(
         tempFileDir:"/tmp",
     })
 )
+app.use(express.json());
 
 // cloudinary connection
 cloudinaryConnect()
