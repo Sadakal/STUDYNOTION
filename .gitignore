@@ -1,0 +1,39 @@
+# Node dependencies (frontend & backend)
+node_modules/
+server/node_modules/
+
+# Build files
+dist/
+build/
+
+# Logs & Debugging
+logs/
+server/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+server/.env
+
+# Cache files
+.cache/
+server/.cache/
+
+# Database (if applicable)
+server/database.sqlite
+server/*.sqlite3
+
+# Coverage reports (if running tests)
+coverage/
+server/coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+server/.vscode/
